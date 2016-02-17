@@ -10,7 +10,7 @@ public class DataAccessObject {
 	protected static Connection getConnection() {
 		Connection connection = null;
 
-		
+		//TESTI!!!
 		String username = Accounts.DBUSERNAME;
 		String password = Accounts.DBPASSWORD;
 		String url = "jdbc:mysql://localhost:3306/projekti?useUnicode=true&characterEncoding=utf-8";
