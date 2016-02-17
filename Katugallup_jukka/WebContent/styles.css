@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+*{
+}
+
+
+body{
+	background-color:#80ccff;
+	font-family: Verdana;
+	text-align: center;
+}
+
+table{background-color:white;
+	
+}
+
+.vastausOK{margin-top:300px;
+	
+}
+
+.alaotsikko{text-align:left;
+			margin-left: 80px;
+	
+}
+
+.lomake{
+		
+		width:600px;
+		display: inline-block;
+	
+}
+
+.listaa-kysymykset{background-color:#f2f2f2;
+	
+}
+
+.lisaa-kysymys{background-color:#80ccff;
+}
+
+.lisaa-vastaus{background-color:#80ccff;
+				text-align: left;
+				
+	
+}
+
+h2{padding-top: 140px;
+	
+}
+
+
+
+
+	
+
+h1 {
+	font-family: 'IM Fell Double Pica', serif;
+	font-weight: 400;
+	text-shadow: 1px 3px 1px #000;
+	padding-top: 140px;
+	font-size: 60px;
+	color: grey;
+	text-align: center;
+	text-indent: 20px;
+	line-height: 0px;
+	margin-bottom: 100px;
+}
