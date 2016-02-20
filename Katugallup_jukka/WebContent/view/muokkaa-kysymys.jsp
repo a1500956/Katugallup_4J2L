@@ -11,7 +11,7 @@
 </head>
 <body>
 <h2>Kysymyksen muokkaus</h2>
-<h4>HUOM! Kun muokkaat kysymystä, niin kaikki kyseiseen kysymykseen liittyneet edeltävät vastaukset poistetaan järjestelmästä.</h4>
+<h4 class="teksti">HUOM! Kun muokkaat kysymystä, niin kaikki kyseiseen kysymykseen liittyneet edeltävät vastaukset poistetaan järjestelmästä.</h4>
 <div class="lomake">
 <h3>Muokkaa kysymystä:</h3>
 
