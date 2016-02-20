@@ -11,25 +11,12 @@
 </head>
 
 <body>
-	<h1>Lis‰‰ kysymys</h1>
-		<form method="post">
-			<table class="lisaa-kysymys" align=center>
-				
-				<tr>
-					<td>Kysymys:</td>
-					<td><input type="text" 
-					value=""
-					name="kysymysteksti" size="50" required  />
-					</td>					
-				</tr>
-				<tr>
-					<td><br><div class ="button"><a href="listaa-kysymykset">Peruuta</a></div></td>
-					<td><br>
-						<input type="submit" name="submit-button" class="submit-button" value="Tallenna" />
-					</td>
-				</tr>	
-			</table>
-			</form>
-		
+<h2>Lis‰‰ kysymys</h2>
+<form method="post">		
+Kysymys:
+<input type="text" value="" name="kysymysteksti" size="50" required  /><br><br>
+<a href="listaa-kysymykset" class="button">Peruuta</a>			
+<input type="submit" name="submit-button" class="submit-button" value="Tallenna" />
+</form>	
 </body>
 </html>

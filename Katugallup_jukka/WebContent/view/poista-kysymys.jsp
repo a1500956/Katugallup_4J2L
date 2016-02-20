@@ -8,29 +8,16 @@
 
 <title>Poista kysymys</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-<h2>Oletko varma, että haluat poistaa kysymyksen: " <%=kysytty%> "</h2>
+<h2 class="lause">Oletko varma, että haluat poistaa kysymyksen: " <%=kysytty%> "</h2>
 <div class="lomake">
 
-		<form method="post">
-			<table class="lisaa-vastaus" align=center>
-				
-				
-										
-				<tr>
-					<td><br>
-						<div class ="button"><a href="listaa-kysymykset">Peruuta</a></div>
-						
-					</td>
-					
-					<td><br>
-						<input type="submit" name="submit-button" class="submit-button" value="Poista" />
-						
-					</td>
-				</tr>	
-			</table>
-			</form>
+<form method="post">												
+	<div><a href="listaa-kysymykset" class="button">Peruuta</a>		
+	<input type="submit" name="submit-button" class="submit-button" value="Poista" /></div>	
+</form>
 </div>		
 </body>
 </html>

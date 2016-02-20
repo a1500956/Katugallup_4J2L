@@ -13,31 +13,14 @@
 <h2><%=kysytty%></h2>
 <div class="lomake">
 <h4 class="alaotsikko">Lisää vastauksesi</h4>
-		<form method="post">
-			<table class="lisaa-vastaus" align=center>
-				
-				<tr>
-					<td>Vastaaja:</td>
-					<td><input type="text" 
-					value=""
-					name="vastaaja" size="30" required/>
-					</td>
-				</tr>
-				<tr>
-					<td>Vastauksesi:</td>
-					<td><input type="text" 
-					value=""
-					name="vastausteksti" size="50" required/>
-					</td>
-				</tr>						
-				<tr>
-					<td><div class ="button"><a href="listaa-kysymykset">Peruuta</a></div></td>
-					<td>
-						<input type="submit" name="submit-button" class="submit-button" value="Tallenna" />
-					</td>
-				</tr>	
-			</table>
-			</form>
+<form class="vastaus" method="post">
+Vastaaja:
+<input type="text" value="" name="vastaaja" size="30" required/><br><br>
+Vastauksesi:
+<input type="text" value="" name="vastausteksti" size="50" required/><br><br>
+<div><a href="listaa-kysymykset" class="button">Peruuta</a>
+<input type="submit" name="submit-button" class="submit-button" value="Tallenna" /></div>	
+</form>
 </div>		
 </body>
 </html>

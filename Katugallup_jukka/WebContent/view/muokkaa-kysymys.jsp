@@ -11,32 +11,16 @@
 </head>
 <body>
 <h2>Kysymyksen muokkaus</h2>
+<h4>HUOM! Kun muokkaat kysymystä, niin kaikki kyseiseen kysymykseen liittyneet edeltävät vastaukset poistetaan järjestelmästä.</h4>
 <div class="lomake">
+<h3>Muokkaa kysymystä:</h3>
 
-		<form method="post">
-			<table class="lisaa-vastaus" align=center>
-				
-				
-				<tr>
-					<td>Muokkaa kysymystä:</td>
-					<td>
-					<textarea rows=1 cols=40 name="kysymysteksti" required><%=kysytty%>
-					</textarea>
-					</td>
-				</tr>						
-				<tr>
-					<td><br>
-						<div class ="button"><a href="listaa-kysymykset">Peruuta</a></div>
-						
-					</td>
-					<p>HUOM! Kun muokkaat kysymystä, niin kaikki kyseiseen kysymykseen liittyneet edeltävät vastaukset poistetaan järjestelmästä.</p>
-					<td><br>
-						<input type="submit" name="submit-button" class="submit-button" value="Muokkaa" />
-						
-					</td>
-				</tr>	
-			</table>
-			</form>
+<form method="post">
+<textarea rows=1 cols=40 name="kysymysteksti" required><%=kysytty%>
+</textarea><br><br>
+<div><a href="listaa-kysymykset" class="button">Peruuta</a>
+<input type="submit" name="submit-button" class="submit-button" value="Muokkaa" /></div>		
+</form>
 </div>
 </body>
 </html>

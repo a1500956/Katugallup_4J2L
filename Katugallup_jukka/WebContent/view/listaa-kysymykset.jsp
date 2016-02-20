@@ -10,7 +10,6 @@ scope="request" />
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <title>Katugallup kysymykset</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 
@@ -18,7 +17,7 @@ scope="request" />
 	<body>
 
 		<h1>Katugallup kysymykset</h1>
-		<table class="listaa-kysymykset" width="700" border="1" align="center">
+		<table class="listaa-kysymykset" width="auto" border="1" align="center">
 		<tr>
 			
 			<td><h4>KYSYMYS</h4></td>
@@ -28,24 +27,23 @@ scope="request" />
 			<%for(int i = 0; i < kysymykset.size(); i++) {%>
 			<tr>
 				
-				<td><%=kysymykset.get(i).getKysymysteksti()%></td>
-				<td><a href="LisaaVastaus?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>">
-				Vastaa
-				</a>&nbsp;&nbsp;			
-				<a href="listaa-vastaukset?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>"><br>
+				<td><div class="kysymykset"><%=kysymykset.get(i).getKysymysteksti()%></div></td>
+				<td><div class="toiminnot"> <a href="LisaaVastaus?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>" class="button">Vastaa
+				</a>		
+				<a href="listaa-vastaukset?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>" class="button">
 				Näytä vastaukset
-				</a>&nbsp;&nbsp;			
-				<a href="muokkaa-kysymys?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>"><br>
+				</a>			
+				<a href="muokkaa-kysymys?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>" class="button">
 				Muokkaa kysymystä
-				</a>&nbsp;&nbsp;			
-				<a href="poista-kysymys?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>">
+				</a>		
+				<a href="poista-kysymys?id1=<%=kysymykset.get(i).getId()%><%=kysymykset.get(i).getKysymysteksti()%>" class="button">
 				Poista kysymys
-				</a>
+				</a></div>
 				</td>								
 			</tr>
 			<% } %>
 		</table><br>
-		<div class ="button"><a href="lisaa-kysymys">Lisää kysymys</a></div>
+		<a href="lisaa-kysymys" class="button">Lisää kysymys</a>
 		
 	</body>
 </html>

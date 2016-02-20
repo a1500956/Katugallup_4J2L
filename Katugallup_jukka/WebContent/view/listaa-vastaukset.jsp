@@ -17,8 +17,7 @@ scope="request" />
 </head>
 	<body>
 
-		<h2>Vastaukset kysymykseen:</h2><br><br>
-		<h3><%=kysytty%></h3>
+		<h2>Vastaukset kysymykseen: <%=kysytty%></h2>
 		<table class="listaa-kysymykset" width="600" border="1" align="center">
 		<tr>
 			<td><h4>VASTAAJA</h4></td>
@@ -36,6 +35,6 @@ scope="request" />
 			<% } %>
 		</table><br>
 
-		<div class ="button"><a href="listaa-kysymykset">Takaisin kysymyksiin</a></div>
+<a href="listaa-kysymykset" class="button">Takaisin kysymyksiin</a>
 	</body>
 </html>

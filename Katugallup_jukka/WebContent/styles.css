@@ -4,15 +4,25 @@
 }
 
 
-body{
-	background-color:#80ccff;
+html{background-image:url("images/kyssari.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: right top;
+    	background-attachment: fixed;
+	
+}
+
+body{	
 	font-family: Georgia;
 	text-align: center;
+	color: grey;
+	
 }
 
 table{background-color:white;
 	
 }
+
 
 .vastausOK{margin-top:300px;
 	
@@ -20,6 +30,11 @@ table{background-color:white;
 
 .alaotsikko{text-align:left;
 			margin-left: 80px;
+	
+}
+
+.vastaus{text-align:left;
+		margin-left: 80px;
 	
 }
 
@@ -31,36 +46,67 @@ table{background-color:white;
 }
 
 .listaa-kysymykset{background-color:#f2f2f2;
+					margin-top: 70px;
+					color:black;
 	
 }
 
-.lisaa-kysymys{background-color:#80ccff;
+.lisaa-kysymys{background-color:black;
 }
 
-.lisaa-vastaus{background-color:#80ccff;
+.lisaa-vastaus{
+				background-color:black;
 				text-align: left;
-				
+}
+
+.lause{margin-top:380px;
+		text-shadow: 2px 2px black;
 	
 }
 
-h2{padding-top: 140px;
+h2{font-size: 50px;
+	color: grey;
+	margin-top:320px;
+	text-shadow: 2px 2px black;
 	
 }
 
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	padding:1px;
+	font-size: 13px;
+    text-decoration: none;
+    color: initial;
+    
+    
+}
 
+input[type=submit]{
+    font-family: 'Georgia';
+    font-size: 13px;
+}
 
+.toiminnot{width:382px;
+			text-align: left;
+}
+			
+.kysymykset{font-size: 20px;
+			padding:5px;
 	
+}
 
 h1 {
 	font-family: 'IM Fell Double Pica', serif;
 	font-weight: 400;
-	text-shadow: 1px 3px 1px #000;
-	padding-top: 140px;
-	font-size: 60px;
+	text-shadow: 2px 2px black;
+	margin-top: 310px;
+	font-size: 90px;
 	color: grey;
 	text-align: center;
 	text-indent: 20px;
 	line-height: 0px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }

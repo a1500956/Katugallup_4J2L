@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="vastausOK">
-<h3><%=muokkausOk %></h3></div><br><br>
-<div class ="button"><a href="listaa-kysymykset">Takaisin kysymyksiin</a></div>
+<h2 class="lause"><%=muokkausOk %></h2></div><br><br>
+<div><a href="listaa-kysymykset" class="button">Takaisin kysymyksiin</a></div>
 </body>
 </html>
